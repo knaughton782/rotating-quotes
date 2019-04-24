@@ -1,0 +1,252 @@
+/* ------------ module start-page styles ------------------ */
+.start-welcome {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    padding: 6px 0;
+}
+
+.start-h2 {
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2.1em;
+    padding: 5px 0 5px 15px;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.start-h2-wht-block {
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 2.1em;
+    padding: 0 0 5px 15px;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.start-badge {
+    max-height: 125px;
+}
+
+/* grey color block background */
+.start-row-bg-lt {
+    background-color: #f3efef;
+    border-radius: 5px;
+}
+
+/* gold color block */
+.start-row-bg-gold {
+    background-color: #f9ba53;
+    border-radius: 5px;
+}
+
+/* gold opacity color block  */
+.start-row-bg-gold-O {
+    background-color: rgba(249, 186, 83, 0.1);
+    border-radius: 5px;
+}
+
+/* blue opacity color block */
+.start-row-bg-blue-O {
+    background-color: rgba(0, 73, 144, 0.1);
+    border-radius: 5px;
+}
+
+/* blue week number header */
+.start-row-bg-week {
+    color: #ffffff;
+    background-color: #004990;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.bottom-space {
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.right {
+    text-align: right;
+}
+
+.full-width-p {
+    padding-left: 15px;
+}
+
+.start-center {
+    text-align: center;
+}
+
+.start-btn-dk {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin: 10px auto;
+    background-color: #004490;
+}
+
+a.start-btn-dk {
+    text-decoration: none;
+}
+
+.start-btn-lt {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    background-color: #f9ba53;
+    border: 1px solid #f9ba53;
+    color: #0b0a07;
+}
+
+a.start-btn-lt {
+    text-decoration: none;
+}
+
+.start-card {
+    margin: 10px;
+    background-color: #f3efef;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+}
+
+.start-card a {
+    text-decoration: none;
+}
+
+.start-card-header {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 15px 15px 25px 15px;
+    background-color: #004990;
+    border: 1px solid #004990;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.start-card-content {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.get-started {
+    justify-content: baseline;
+    align-items: flex-end;
+}
+
+.start-list {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.start-list li {
+    padding-bottom: 4px;
+}
+
+/********** quote styles for start pages *********/
+.quote-marks {
+    margin: auto;
+    height: 300px; /* keep the quotes large */
+    background-image: url('https://olc.webster.edu/branding/img/start/quotes_marks.svg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.start-pull {
+    font-family: 'Arvo', serif;
+    max-width: 100%;
+    padding: 60px 25px;
+    font-size: 1.9em;
+}
+
+.medium {
+    font-size: 1.25em;
+}
+
+.large {
+    font-size: 1.4em;
+}
+
+.quote-author {
+    font-family: 'Arvo', serif;
+    font-size: .7em;
+    padding: 5px;
+    text-align: right;
+}
+
+.quote-bg {
+    background-image: url('https://olc.webster.edu/branding/img/start/bg_pattern.svg');
+    background-repeat: repeat;
+    border-radius: 5px;
+    height: 300px;
+    background-size: cover;
+}
+
+/********** end quote styles for start pages *********/
+
+@media (max-width: 1208px) {
+    .coach-pic,
+    .quote-marks {
+        margin: auto;
+        width: 95%;
+    }
+    .start-pull {
+        padding: 40px 25px;
+        font-size: 1.8em;
+    
+    }
+}
+@media (max-width: 1067px) {
+    .start-pull {
+        padding: 25px 25px;
+        font-size: 1.8em;
+    }
+}
+@media (max-width: 992px) {
+    .start-badge {
+        display: none;
+    }
+    .start-pull {
+        padding: 25px 10px 5px 10px;
+        font-size: 1.7em;
+    }
+}
+@media (max-width: 904px) {
+    .start-pull {
+        padding: 30px 10px 5px 10px;
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 904px) {
+    .start-pull {
+        padding: 25px 10px 5px 10px;
+        font-size: 1.5em;
+    }
+}
+@media (max-width: 770px) {
+    .start-pull {
+        padding: 25px 10px 5px 10px;
+        font-size: 1.45em;
+    }
+}
+
+/* ------- END start-page styles ----------------- */
